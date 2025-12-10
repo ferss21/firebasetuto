@@ -8,8 +8,8 @@ usando el método delete().
 En este ejemplo:
 - Se intenta eliminar el documento 'demo1' de la colección 'alumnos'.
 
-Uso en consola:
-    py .\comando_06_delete_doc.py
+Uso en consola (dentro de la carpeta del proyecto):
+    py comando_06_delete_doc.py
 """
 
 from firebase_init import get_db, close_firebase

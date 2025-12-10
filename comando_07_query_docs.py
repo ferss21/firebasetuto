@@ -14,8 +14,8 @@ IMPORTANTE:
 - Esta versión está pensada para NO requerir índices compuestos adicionales,
   por lo que es más sencilla para demostración en clase.
 
-Uso en consola:
-    py .\comando_07_query_docs.py
+Uso en consola (dentro de la carpeta del proyecto):
+    py comando_07_query_docs.py
 
 Sugerencia:
     Ejecutar antes varias veces 'comando_03_add_doc_autoid.py' para generar
@@ -69,5 +69,3 @@ if __name__ == "__main__":
     finally:
         close_firebase()
         print("🔚 Script finalizado, puedes ejecutar otro comando.")
-
-

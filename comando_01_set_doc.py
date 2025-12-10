@@ -10,8 +10,8 @@ Características:
 - Crea (o reemplaza) el documento con ID 'demo1'.
 - Establece varios campos: nombre, curso, activo, creadoEn.
 
-Uso en consola (desde la carpeta del proyecto):
-    py .\comando_01_set_doc.py
+Uso en consola (dentro de la carpeta del proyecto):
+    py comando_01_set_doc.py
 """
 
 from firebase_init import get_db, close_firebase

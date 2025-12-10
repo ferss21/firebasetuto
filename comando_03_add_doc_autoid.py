@@ -10,8 +10,8 @@ En este ejemplo:
 - El ID se genera de forma aleatoria.
 - Se guardan campos como nombre, curso, activo, puntaje y creadoEn.
 
-Uso en consola:
-    py .\comando_03_add_doc_autoid.py
+Uso en consola (dentro de la carpeta del proyecto):
+    py comando_03_add_doc_autoid.py
 """
 
 from firebase_init import get_db, close_firebase

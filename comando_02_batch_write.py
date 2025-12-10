@@ -11,8 +11,8 @@ En este ejemplo:
 - Se crean 3 documentos en la colección 'alumnos':
   'batch_demo_1', 'batch_demo_2' y 'batch_demo_3'.
 
-Uso en consola:
-    py .\comando_02_batch_write.py
+Uso en consola (dentro de la carpeta del proyecto):
+    py comando_02_batch_write.py
 """
 
 from firebase_init import get_db, close_firebase
@@ -57,3 +57,4 @@ if __name__ == "__main__":
     finally:
         close_firebase()
         print("🔚 Script finalizado, puedes ejecutar otro comando.")
+

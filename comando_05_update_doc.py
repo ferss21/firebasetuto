@@ -14,8 +14,8 @@ En este ejemplo:
 - Se actualiza el documento 'demo1' de la colección 'alumnos'.
 - Se cambian los campos 'curso' y 'activo'.
 
-Uso en consola:
-    py .\comando_05_update_doc.py
+Uso en consola (dentro de la carpeta del proyecto):
+    py comando_05_update_doc.py
 """
 
 from firebase_init import get_db, close_firebase
@@ -52,3 +52,4 @@ if __name__ == "__main__":
     finally:
         close_firebase()
         print("🔚 Script finalizado, puedes ejecutar otro comando.")
+

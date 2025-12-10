@@ -10,8 +10,8 @@ En este ejemplo:
 - Si existe, se imprimen sus datos.
 - Si no existe, se muestra un mensaje de advertencia.
 
-Uso en consola:
-    py .\comando_04_get_doc.py
+Uso en consola (dentro de la carpeta del proyecto):
+    py comando_04_get_doc.py
 
 Recomendación:
     Primero ejecutar comando_01_set_doc.py para asegurarse de que
